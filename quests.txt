@@ -1,0 +1,4 @@
+TO DO:
+
+1.[] Decidir el tipus de navegació per el GitHub.
+2.[] Al hacer "hover" sobre un elemento de servicios que los demás también cambien para mosstrar más detalles del seleccionado.
