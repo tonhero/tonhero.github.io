@@ -6,124 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <title>Tonhero</title>
+    <title>Hello, world!</title>
   </head>
   <body>
-  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Tonhero</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Servicios:
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Diseño Web</a>
-              <a class="dropdown-item" href="#">Apps AR (próximamente)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Otro apartado</a>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body text-center">
+              <img src="img/avatars/toni.png" alt="Toni" class="img-fluid rounded-circle mb-2" width="96" height="96">
+              <h4 class="card-title mb-0">Toni Navarro</h4>
+              <div class="text-muted mb-2">Web Developer</div>
+              <div>
+                <a class="btn btn-success btn-md" href="#">Fork</a>
+                <a class="btn btn-success btn-md" href="#">Mensaje</a>
+              </div>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="curriculum.php">Currículum</a>
-          </li>
-        </ul>
-        <span class="navbar-text">Soluciones para todo tipo de proyectos.</span>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
+            <hr class="my-0">
+            <div class="card-body">
+              <h5 class="h6 card-title">Habilidades</h5>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">JavaScript</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">CSS</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">HTML</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">PHP</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">SQL</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">Photoshop</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">DreamWeaver</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">Animate</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">Blender</a>
+            </div>
+            <hr class="my-0">
+            <div class="card-body">
+              <h5 class="h6 card-title">Acerca de mi</h5>
+              <ul class="list-unstyled mb-0">
+                  <li class="mb-1"><span class="fas fa-home fa-fw mr-1"></span> Aprende siendo <a href="#">autodidacta</a></li>
+                  <li class="mb-1"><span class="fas fa-briefcase fa-fw mr-1"></span> Trabaja bien con <a href="#">amprendedores/as</a></li>
+                  <li class="mb-1"><span class="fas fa-map-marker-alt fa-fw mr-1"></span> Se divierte con <a href="#">creatividad</a></li>
+                </ul>
+            </div>
+            <hr class="my-0">
+            <div class="card-body">
+                <h5 class="h6 card-title">Otros sitios</h5>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-1"><span class="fas fa-globe fa-fw mr-1"></span> <a href="#">yourweb.express</a></li>
+                  <li class="mb-1"><span class="fab fa-twitter fa-fw mr-1"></span> <a href="#">Twitter</a></li>
+                  <li class="mb-1"><span class="fab fa-facebook fa-fw mr-1"></span> <a href="#">Facebook</a></li>
+                  <li class="mb-1"><span class="fab fa-instagram fa-fw mr-1"></span> <a href="#">Instagram</a></li>
+                  <li class="mb-1"><span class="fab fa-linkedin fa-fw mr-1"></span> <a href="#">LinkedIn</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="col-md-8">
+
+            <div class="card">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs pull-right" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="photos-tab" data-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="true">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="activity-tab" data-toggle="tab" href="#activity" role="tab" aria-controls="activity" aria-selected="false">Activity</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+
+                    <div class="row no-gutters m--1">
+                      <div class="col-4">
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                        <div class="mx-1 my-2">
+                          <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
+                        </div>
+                      </div>
+                    </div>
+
+                  </div><!-- /.tab-pange -->
+                  <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">...</div>
+                  <div class="tab-pane fade" id="activity" role="tabpanel" aria-labelledby="activity-tab">...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </nav>
-
-    <h1 class="text-center">Servicios</h1>
-<div class="container">
-    <!-- prova de container -->
-    <div class="row justify-content-center">
-
-    <!-- Card 1 TEST -->
-    <div class="card" style="width: 14rem;">
-    	<h5 class="card-header text-center">Arquitectura</h5>
-    	<img class="card-img-top" src="assets/fotos/arq.png" alt="Card image cap">
-    	<div class="card-body">
-    		<h5 class="card-title text-center">Visualización (Renders, VR/AR), Soporte para proyectos y diseño de producto</h5>
-    		<h6 class="card-subtitle mb-2 text-muted">Renders, Concepts, Products, Arch, Display</h6>
-    		<p class="card-text">Despacho pluridisciplinar donde se ofrecen servicios de diseño orientado a clientes interesados en presentaciones de productos, agencias de comunicación y [...]</p>
-    		<a href="http://hunica.org/" class="btn btn-primary" target="_blank">Saber más</a>
-    	</div>
-    </div>
-
-    <!-- Card 1 TEST -->
-    <div class="card" style="width: 14rem;">
-    	<h5 class="card-header text-center">Mobiliario para eventos</h5>
-    	<img class="card-img-top" src="assets/fotos/popupexpress.jpg" alt="Card image cap">
-    	<div class="card-body">
-    		<h5 class="card-title text-center"></h5>
-    		<h6 class="card-subtitle mb-2 text-muted">Para: Eventos, Ferias, Reuniones/Convenciones</h6>
-    		<p class="card-text">Alquiler y venta de mobiliario de diseño para eventos, ferias, congresos y convenciones. Completamente personalizados para la ocasión. Solicita nuestro catálogo de modelos para encargar. Se pueden encargar módulos para crear bloques diferentes en un mismo espacio.</p>
-    		<a href="#" class="btn btn-primary">Saber más</a>
-    	</div>
-    </div>
-
-    <!-- Card 1 TEST -->
-    <div class="card" style="width: 14rem;">
-    	<h5 class="card-header text-center">Diseño Web</h5>
-    	<img class="card-img-top" src="http://via.placeholder.com/200x150" alt="Card image cap">
-    	<div class="card-body">
-    		<h5 class="card-title text-center">Portfolio propio / Web Showroom</h5>
-    		<h6 class="card-subtitle mb-2 text-muted">Webs, Aplicaciones, Juegos, etc</h6>
-    		<p class="card-text">Páginas web y otras aplicaciones programadas, consulta sin compromiso.</p>
-    		<a href="#" class="btn btn-primary">Mis trabajos</a>
-    	</div>
-    </div>
-
-    <!-- Card 1 TEST -->
-    <div class="card" style="width: 14rem;">
-    	<h5 class="card-header text-center">Artes</h5>
-    	<img class="card-img-top" src="http://via.placeholder.com/200x150" alt="Card image cap">
-    	<div class="card-body">
-    		<h5 class="card-title text-center">Gráficas, Plásticas</h5>
-    		<h6 class="card-subtitle mb-2 text-muted">Bertarte, ArtBert, Hannu</h6>
-    		<p class="card-text">Edición fotográfica, logotipos, conceptualización y diseño de entornos virtuales.</p>
-    		<a href="#" class="btn btn-primary">Portfolio de Artes</a>
-    	</div>
-    </div>
-
-    <!-- Card 1 TEST -->
-    <div class="card" style="width: 14rem;">
-    	<h5 class="card-header text-center">Sistemas de gestión</h5>
-    	<img class="card-img-top" src="http://via.placeholder.com/200x150" alt="Card image cap">
-    	<div class="card-body">
-    		<h5 class="card-title text-center">CannaCode</h5>
-    		<h6 class="card-subtitle mb-2 text-muted">Soluciones de software y servicios focalizados en el sector e industria cannábicos.</h6>
-    		<p class="card-text">Breve descripción del contenido que se va a mostrar cuando se haga clic sobre el botón de abajo.</p>
-    		<a href="#" class="btn btn-primary">Enlace a algun sitio</a>
-    	</div>
-    </div>
-
-</div>
-</div>
-<!--
-<p>Con la inestimable colaboración de: - T40 - Lustaflow - Nico - Hanu - Bert&Cats - Artbert - El HackLab - Creación Digital - Digital crafting [...]</p>
--->
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
-</html>
+</html> 

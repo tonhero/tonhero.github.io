@@ -1,4 +1,12 @@
 TO DO:
 
-1.[] Decidir el tipus de navegació per el GitHub.
-2.[] Al hacer "hover" sobre un elemento de servicios que los demás también cambien para mosstrar más detalles del seleccionado.
+01.[] Decidir el tipus de navegació per el GitHub.
+02.[] Al hacer "hover" sobre un elemento de servicios que los demás también cambien para mostrar más detalles del seleccionado.
+03.[] Aprendre JQuery per personalitzar el comportament dels elements associats al DOM.
+04.[] 
+05.[]
+06.[]
+07.[]
+08.[]
+09.[]
+10.[]
