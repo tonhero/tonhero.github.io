@@ -13,7 +13,13 @@
 
     <title>Tonhero GitHub</title>
   </head>
-  <body>
+  <body style="background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;">
     <div class="container">
 
       <div class="row">
@@ -23,7 +29,7 @@
             <div class="card-body text-center">
               <img src="img/avatars/toni.png" alt="Toni" class="img-fluid rounded-circle mb-2" width="96" height="96">
               <h4 class="card-title mb-0">Toni Navarro</h4>
-              <div class="text-muted mb-2">Web Developer</div>
+              <div class="text-muted mb-2">Web/App Developer</div>
               <div>
                 <a class="btn btn-success btn-md" href="#">Seguir</a>
                 <a class="btn btn-success btn-md" href="#">Mensaje</a>
@@ -31,18 +37,116 @@
             </div>
             <hr class="my-0">
             <div class="card-body">
-              <h5 class="h6 card-title">Habilidades</h5>
-              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">JavaScript</a>
-              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">CSS</a>
-              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">HTML</a>
-              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">PHP</a>
-              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">SQL</a>
+              <h5 class="h6 card-title">Habilidades (Modals, dentro logos, descripciones y progress bar por cada habilidad)</h5>
+              <!-- Buttons de Modals -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalhtml">HTML</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalcss">CSS</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modaljs">JavaScript</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalphp">PHP</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalsql">SQL</button>
+              
+              <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">API (Definición,Explicación,Implementación)</a>
               <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">Photoshop</a>
               <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">DreamWeaver</a>
               <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">Animate</a>
               <a href="#" class="btn btn-sm btn-outline-secondary mr-1 my-1">Blender</a>
+              <!-- MODAL HTML -->
+              <div class="modal fade" id="modalhtml" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">HTML</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>HyperText Markup Language (Lenguaje de Marcas de HiperTexto)</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- MODAL HTML -->
             </div>
             <hr class="my-0">
+            <!-- MODAL CSS -->
+              <div class="modal fade" id="modalcss" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">CSS</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>CSS (Cascade Style-Sheet)</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- MODAL CSS -->
+            <!-- MODAL JS -->
+              <div class="modal fade" id="modaljs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">JavaScript</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>JavaScript</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- MODAL JS -->
+            <!-- MODAL PHP -->
+              <div class="modal fade" id="modalphp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">PHP</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>PHP</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- MODAL PHP -->
+            <!-- MODAL SQL -->
+              <div class="modal fade" id="modalsql" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">SQL</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>SQL</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- MODAL SQL -->
             <div class="card-body">
               <h5 class="h6 card-title">Mi credo</h5>
               <ul class="list-unstyled mb-0">
@@ -75,7 +179,7 @@
                     <a class="nav-link active" id="photos-tab" data-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="true">Fotos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">Proyectos</a>
+                    <a class="nav-link" id="projects-tab" data-toggle="tab" href="#proyectos" role="tab" aria-controls="proyectos" aria-selected="false">Proyectos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="activity-tab" data-toggle="tab" href="#activity" role="tab" aria-controls="activity" aria-selected="false">Actividad</a>
@@ -86,8 +190,8 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="photos" role="tabpanel" aria-labelledby="photos-tab">
                     ...
-
-                    <!--<div class="row no-gutters m--1">
+                    <!--
+                    <div class="row no-gutters m--1">
                       <div class="col-4">
                         <div class="mx-1 my-2">
                           <img src="img/avatars/toni.png" class="img-fluid medium-zoom-image" alt="" data-action="zoom">
@@ -124,8 +228,8 @@
                     </div>-->
 
                   </div><!-- /.tab-pange -->
-                  <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">...</div>
-                  <div class="tab-pane fade" id="activity" role="tabpanel" aria-labelledby="activity-tab">...</div>
+                  <div class="tab-pane fade" id="proyectos" role="tabpanel" aria-labelledby="projects-tab"><p>2018-2015:<br>Webmaster en "El Rei de la Màgia", El Ingenio i HUNICA STUDIOS.</p></div>
+                  <div class="tab-pane fade" id="activity" role="tabpanel" aria-labelledby="activity-tab">Mundo</div>
                 </div>
               </div>
             </div>
