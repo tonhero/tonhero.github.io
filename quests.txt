@@ -3,9 +3,9 @@ TO DO:
 01.[] Decidir el tipus de navegació per el GitHub.
 02.[] Al hacer "hover" sobre un elemento de servicios que los demás también cambien para mostrar más detalles del seleccionado.
 03.[] Aprendre JQuery per personalitzar el comportament dels elements associats al DOM.
-04.[] 
-05.[]
-06.[]
+04.[] Implementar en tus proyectos personales un workflow versatil para cada una de las circunstancias
+05.[] Intentar convencer al cliente de que puedes manejar las situaciones que te propongan 
+06.[] 
 07.[]
 08.[]
 09.[]

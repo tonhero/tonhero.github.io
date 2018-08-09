@@ -13,13 +13,7 @@
 
     <title>Tonhero GitHub</title>
   </head>
-  <body style="background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;">
+  <body style="background:radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;background-color:#282828; background-size:16px 16px; margin-top: 20px;">
     <div class="container">
 
       <div class="row">
@@ -54,14 +48,14 @@ background-size:16px 16px;">
               <div class="modal fade" id="modalhtml" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header" style="background-color: orange;">
                       <h5 class="modal-title" id="exampleModalLongTitle">HTML</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p>HyperText Markup Language (Lenguaje de Marcas de HiperTexto)</p>
+                      <p>HyperText Markup Language (Lenguaje de Marcas de HiperTexto). Es el lenguaje usado para maquetar y estructurar la página.</p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -75,7 +69,7 @@ background-size:16px 16px;">
               <div class="modal fade" id="modalcss" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header" style="background-color: blue;">
                       <h5 class="modal-title" id="exampleModalLongTitle">CSS</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -94,7 +88,7 @@ background-size:16px 16px;">
               <div class="modal fade" id="modaljs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header" style="background-color: yellow;">
                       <h5 class="modal-title" id="exampleModalLongTitle">JavaScript</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -113,7 +107,7 @@ background-size:16px 16px;">
               <div class="modal fade" id="modalphp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header" style="background-color: navy;">
                       <h5 class="modal-title" id="exampleModalLongTitle">PHP</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -171,12 +165,11 @@ background-size:16px 16px;">
 
         <div class="col-md-8">
           
-
             <div class="card">
               <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs" role="tablist">
                   <li class="nav-item">
-                    <a class="nav-link active" id="photos-tab" data-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="true">Fotos</a>
+                    <a class="nav-link active" id="images-tab" data-toggle="tab" href="#images" role="tab" aria-controls="images" aria-selected="true">Imágenes</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="projects-tab" data-toggle="tab" href="#proyectos" role="tab" aria-controls="proyectos" aria-selected="false">Proyectos</a>
@@ -184,13 +177,17 @@ background-size:16px 16px;">
                   <li class="nav-item">
                     <a class="nav-link" id="activity-tab" data-toggle="tab" href="#activity" role="tab" aria-controls="activity" aria-selected="false">Actividad</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="trayectoria-tab" data-toggle="tab" href="#trayectoria" role="tab" aria-controls="trayectoria" aria-selected="false">Trayectoria</a>
+                  </li>
                 </ul>
               </div>
               <div class="card-body">
                 <div class="tab-content">
-                  <div class="tab-pane fade show active" id="photos" role="tabpanel" aria-labelledby="photos-tab">
-                    ...
-                    <!--
+                  <div class="tab-pane fade show active" id="images" role="tabpanel" aria-labelledby="images-tab">
+                    - Visualizaciones 3D
+                    - 
+                    <!-- MOSAICO DE IMÁGENES
                     <div class="row no-gutters m--1">
                       <div class="col-4">
                         <div class="mx-1 my-2">
@@ -230,6 +227,9 @@ background-size:16px 16px;">
                   </div><!-- /.tab-pange -->
                   <div class="tab-pane fade" id="proyectos" role="tabpanel" aria-labelledby="projects-tab"><p>2018-2015:<br>Webmaster en "El Rei de la Màgia", El Ingenio i HUNICA STUDIOS.</p></div>
                   <div class="tab-pane fade" id="activity" role="tabpanel" aria-labelledby="activity-tab">Mundo</div>
+                  <div class="tab-pane fade" id="trayectoria" role="tabpanel" aria-labelledby="trayectoria-tab">
+                  Septiembre 2018 2014: Curso de desarrollo de aplicaciones con tecnologias web en el CDSARTI</div>
+
                 </div>
               </div>
             </div>
@@ -237,7 +237,6 @@ background-size:16px 16px;">
         </div>
 
       </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
